@@ -1,0 +1,22 @@
+GET http://localhost:5176
+
+###
+GET http://localhost:5176/employees
+
+###
+POST http://localhost:5176/employees
+Content-Type: application/json
+
+###
+PUT http://localhost:5176/employees
+Content-Type: application/json
+
+{
+    "Id":109088,
+    "Name":"saul",
+    "Salary":390000
+}
+
+###
+DELETE http://localhost:5176/employees?id=102
+x-api-key: kite-delete-456

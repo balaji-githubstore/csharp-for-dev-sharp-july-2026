@@ -1,0 +1,45 @@
+GET http://localhost:5298/books
+x-api-key: kite-delete-456
+###
+GET http://localhost:5298/books/2
+###
+POST http://localhost:5298/books
+Content-Type: application/json
+
+{
+    "Title":"b3",
+    "Author":"Kim",
+    "Year":1990
+}
+###
+POST http://localhost:5298/books
+Content-Type: application/json
+
+{
+    "title":"b4",
+    "author":"Kim"
+}
+
+###
+PUT http://localhost:5298/books/2
+Content-Type: application/json
+
+{
+    "title":"b2222",
+    "author":"Kim",
+    "Year":1970
+}
+
+###
+PATCH http://localhost:5298/books/2
+Content-Type: application/json
+
+{
+
+    "Year":1970
+}
+
+
+###
+DELETE  http://localhost:5298/books/2
+x-api-key: kite-delete-456

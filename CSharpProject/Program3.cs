@@ -93,3 +93,19 @@ box.MyValues=10;
 box.ShowMyValue();
 
 Box<int>.Print(1,"2");
+
+
+Dictionary<int,string> dic=new Dictionary<int, string>();
+dic.Add(101,"john");
+dic.Add(102,"peter");
+dic.Add(103,"jack");
+
+
+System.Console.WriteLine(dic[101]);
+
+// System.Console.WriteLine(dic.Keys);
+
+foreach(var key in dic.Keys)
+{
+    System.Console.WriteLine(dic[key]);
+}

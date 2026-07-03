@@ -126,3 +126,10 @@ x=>x.StandardID,
 System.Console.WriteLine(outputz);
 
 
+
+//firstordefault
+//remove
+//removeall
+
+
+//skip

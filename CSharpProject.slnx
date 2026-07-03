@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="BooksManagement/BooksManagement.csproj" />
   <Project Path="CSharpProject/CSharpProject.csproj" />
   <Project Path="EmployeeDashboard/EmployeeDashboard.csproj" />
+  <Project Path="MiddlewareProject/MiddlewareProject.csproj" />
 </Solution>

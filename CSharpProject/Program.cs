@@ -128,6 +128,8 @@ List<Employee> employees=new List<Employee>();
 employees.Add(emp1);
 employees.Add(emp2);
 
+List<Employee> lists=[new Employee(1,"jack"),new Employee(2,"peter"),new Employee(3,"kim")];
+
 //create method return type bool and argument should be Employee
 bool RunLogic(Employee employee)
 {
