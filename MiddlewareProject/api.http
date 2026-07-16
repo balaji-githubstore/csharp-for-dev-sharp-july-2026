@@ -1,0 +1,11 @@
+GET http://localhost:5295/accounts?name=savings
+
+
+###
+POST http://localhost:5295/accounts
+
+some text
+
+
+###
+GET  http://localhost:5295/statements
